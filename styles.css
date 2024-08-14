@@ -9,7 +9,7 @@ body {
 }
 
 .calculator {
-    width: 300px; /* Increased the width slightly */
+    width: 300px; 
     background-color: #000;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -26,7 +26,7 @@ body {
 
 .buttons {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Ensures there are 4 equal columns */
+    grid-template-columns: repeat(4, 1fr); 
     gap: 10px;
     padding: 20px;
 }
@@ -39,8 +39,8 @@ button {
     color: #000;
     border-radius: 5px;
     cursor: pointer;
-    width: 100%; /* Ensure buttons take full width of the grid cell */
-    height: 60px; /* Ensure buttons have consistent height */
+    width: 100%; 
+    height: 60px; 
 }
 
 button:hover {
@@ -49,9 +49,9 @@ button:hover {
 
 button.equal {
     background-color: #ff5722;
-    grid-column: span 4; /* Span across all 4 columns */
+    grid-column: span 4; 
     color: #fff;
-    height: 70px; /* Make the equals button slightly taller */
+    height: 70px; 
 }
 
 button.clear {
